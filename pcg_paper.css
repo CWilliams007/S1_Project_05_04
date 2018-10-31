@@ -13,3 +13,187 @@
    Supporting Files: 
 
 */
+/* Font Family */
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Coming+Soon');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+/* Structural Styles */
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: url('hands-information-magazine-6053.jpg');
+    background-attachment: fixed;
+    margin: 0px 0px;
+    background-repeat: round;
+}
+
+#maincontent {
+    background-color: rgba(241, 241, 241, 0.7);
+    margin: auto auto;
+    max-width: 1100px;
+    min-width: 700px;
+    width: 100%;
+}
+
+#maincontent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+hr#hr1 {
+    display: block;
+    width: 25%;
+    float: left;
+    margin: 0;
+}
+
+/* Header styles */
+header {
+    width: 100%;
+    margin: auto auto;
+    display: block;
+    padding: 0px;
+    font-family: 'Permanent Marker', cursive;
+    padding-left: 10px;
+}
+
+header {
+    background-color: rgb(105, 105, 105);
+    color: #bfbfbf;
+}
+
+#heading1 {
+    margin: 0px;
+}
+
+h1#heading2 {
+    margin: auto auto;
+    text-align: center;
+    font-family: 'Coming Soon', cursive;
+    background-color: #ddd;
+}
+
+h2#italicheading {
+    padding: 0px;
+    margin: 0px;
+    clear: left;
+}
+
+/* Nav styles */
+nav {
+    display: grid;
+    grid-template-columns: 75px 110px 100px 100px;
+}
+
+div#nav {
+    background-color: #595857;
+}
+
+/* Drop Down Nav */
+
+/* Dropdown Button */
+
+a {
+    width: 200px;
+}
+
+.dropbtn {
+    background-color: #595857;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+/* Content Styles */
+#maincontent {
+    font-family: 'Coming Soon', cursive;
+}
+
+#maincontent p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#maincontent div {
+    padding: 2px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #0c0c0c;
+    color: #bfbfbf;
+    width: 100%;
+    padding: 75px 0px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #bfbfbf;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+footer address {
+    color: #595857;
+}
+
+#footercontent {
+    position: absolute;
+    right: 10px;
+    display: grid;
+    grid-template-rows: 1em 1em 1em;
+}
+
+.floatright {
+    display: block;
+}
+
+/*  */
